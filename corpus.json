@@ -1,58 +1,69 @@
 {
-  "doc-001": {
-    "text": "Q1 revenue increased by 18 percent driven by enterprise subscriptions and reduced churn in the North America region.",
-    "classification_level": "internal",
+  "DOC-001": {
+    "text": "Fuel convoy routing is delayed 36 hours due to washouts near corridor DELTA, with alternate route assessment underway.",
+    "classification_level": "UNCLASSIFIED",
     "required_compartments": [
-      "finance"
+      "logistics"
     ]
   },
-  "doc-002": {
-    "text": "Customer support ticket volume dropped 11 percent after the new self-service knowledge base launched in February.",
-    "classification_level": "public",
+  "DOC-002": {
+    "text": "Depot maintenance backlog decreased after spare-part allocation was rebalanced across regional hubs.",
+    "classification_level": "UNCLASSIFIED",
     "required_compartments": [
       "support"
     ]
   },
-  "doc-003": {
-    "text": "A critical security patch was deployed to all production services after a dependency vulnerability was identified.",
-    "classification_level": "secret",
+  "DOC-003": {
+    "text": "A secure transport manifest references CORVUS tasking for priority movement windows in sector nine.",
+    "classification_level": "CONFIDENTIAL",
     "required_compartments": [
       "security"
     ]
   },
-  "doc-004": {
-    "text": "The research team completed benchmark testing for a retrieval-augmented generation prototype with improved factual accuracy.",
-    "classification_level": "confidential",
+  "DOC-004": {
+    "text": "Model testing indicates improved retrieval precision for conflict early-warning analyses.",
+    "classification_level": "CONFIDENTIAL",
     "required_compartments": [
       "research"
     ]
   },
-  "doc-005": {
-    "text": "Manufacturing delays in two suppliers extended hardware delivery timelines by an average of twelve days.",
-    "classification_level": "confidential",
+  "DOC-005": {
+    "text": "Supplier readiness checks show moderate risk of delayed deliveries for thermal camera components.",
+    "classification_level": "CONFIDENTIAL",
     "required_compartments": [
       "operations"
     ]
   },
-  "doc-006": {
-    "text": "A compliance audit reported no major findings, with minor documentation updates requested for data retention procedures.",
-    "classification_level": "internal",
+  "DOC-006": {
+    "text": "SIGINT indicates IRONGATE relay traffic increased around SV-9900 between 0200 and 0400 local.",
+    "classification_level": "TOP SECRET",
     "required_compartments": [
-      "compliance"
+      "sigint",
+      "SI"
     ]
   },
-  "doc-007": {
-    "text": "Mobile app daily active users grew by 9 percent following a redesign of onboarding and push notification targeting.",
-    "classification_level": "internal",
+  "DOC-007": {
+    "text": "An intercept notes PRISM ECHO references tied to a mobile antenna handoff protocol.",
+    "classification_level": "TOP SECRET",
     "required_compartments": [
-      "product"
+      "ops",
+      "SI"
     ]
   },
-  "doc-008": {
-    "text": "Marketing campaign conversion was below target due to weak creative performance in paid social channels.",
-    "classification_level": "internal",
+  "DOC-008": {
+    "text": "Imagery shows VESPER support vehicles repositioned near a suspected collection platform.",
+    "classification_level": "TOP SECRET",
     "required_compartments": [
-      "marketing"
+      "imint",
+      "TK"
+    ]
+  },
+  "DOC-009": {
+    "text": "Latest satellite revisit confirms transient equipment staging with probable command-and-control adaptation.",
+    "classification_level": "TOP SECRET",
+    "required_compartments": [
+      "ops",
+      "TK"
     ]
   }
 }

@@ -1,71 +1,71 @@
 [
   {
-    "workflow_id": "wf-001",
-    "name": "Executive Quarterly Snapshot",
-    "classification_ceiling": "confidential",
+    "workflow_id": "WF-LOGISTICS",
+    "name": "Logistics Workflow",
+    "classification_ceiling": "CONFIDENTIAL",
     "compartments": [
-      "finance",
+      "logistics",
       "support",
-      "compliance"
+      "security"
     ],
     "document_ids": [
-      "doc-001",
-      "doc-002",
-      "doc-006"
+      "DOC-001",
+      "DOC-002",
+      "DOC-003"
     ]
   },
   {
-    "workflow_id": "wf-002",
-    "name": "Security and Risk Monitoring",
-    "classification_ceiling": "secret",
+    "workflow_id": "WF-SIGINT",
+    "name": "Signals Intelligence Workflow",
+    "classification_ceiling": "TOP SECRET",
     "compartments": [
-      "security",
-      "compliance"
+      "sigint",
+      "ops",
+      "SI"
     ],
     "document_ids": [
-      "doc-003",
-      "doc-006"
+      "DOC-006",
+      "DOC-007"
     ]
   },
   {
-    "workflow_id": "wf-003",
-    "name": "Product and Research Progress",
-    "classification_ceiling": "confidential",
+    "workflow_id": "WF-IMINT",
+    "name": "Imagery Intelligence Workflow",
+    "classification_ceiling": "TOP SECRET",
     "compartments": [
-      "research",
-      "product"
+      "imint",
+      "ops",
+      "TK"
     ],
     "document_ids": [
-      "doc-004",
-      "doc-007"
+      "DOC-008",
+      "DOC-009"
     ]
   },
   {
-    "workflow_id": "wf-004",
-    "name": "Operations and Delivery",
-    "classification_ceiling": "confidential",
+    "workflow_id": "WF-FUSION",
+    "name": "Fusion Workflow",
+    "classification_ceiling": "TOP SECRET",
     "compartments": [
-      "operations",
-      "compliance"
+      "fusion",
+      "sigint",
+      "imint",
+      "ops",
+      "SI",
+      "TK"
     ],
-    "document_ids": [
-      "doc-005",
-      "doc-006"
-    ]
+    "document_ids": []
   },
   {
-    "workflow_id": "wf-005",
-    "name": "Growth and Marketing Performance",
-    "classification_ceiling": "internal",
+    "workflow_id": "WF-BRIEFING",
+    "name": "Briefing Workflow",
+    "classification_ceiling": "SECRET",
     "compartments": [
-      "finance",
-      "product",
-      "marketing"
+      "briefing",
+      "logistics",
+      "fusion",
+      "ops"
     ],
-    "document_ids": [
-      "doc-001",
-      "doc-007",
-      "doc-008"
-    ]
+    "document_ids": []
   }
 ]
