@@ -1,0 +1,71 @@
+[
+  {
+    "workflow_id": "wf-001",
+    "name": "Executive Quarterly Snapshot",
+    "classification_ceiling": "confidential",
+    "compartments": [
+      "finance",
+      "support",
+      "compliance"
+    ],
+    "document_ids": [
+      "doc-001",
+      "doc-002",
+      "doc-006"
+    ]
+  },
+  {
+    "workflow_id": "wf-002",
+    "name": "Security and Risk Monitoring",
+    "classification_ceiling": "secret",
+    "compartments": [
+      "security",
+      "compliance"
+    ],
+    "document_ids": [
+      "doc-003",
+      "doc-006"
+    ]
+  },
+  {
+    "workflow_id": "wf-003",
+    "name": "Product and Research Progress",
+    "classification_ceiling": "confidential",
+    "compartments": [
+      "research",
+      "product"
+    ],
+    "document_ids": [
+      "doc-004",
+      "doc-007"
+    ]
+  },
+  {
+    "workflow_id": "wf-004",
+    "name": "Operations and Delivery",
+    "classification_ceiling": "confidential",
+    "compartments": [
+      "operations",
+      "compliance"
+    ],
+    "document_ids": [
+      "doc-005",
+      "doc-006"
+    ]
+  },
+  {
+    "workflow_id": "wf-005",
+    "name": "Growth and Marketing Performance",
+    "classification_ceiling": "internal",
+    "compartments": [
+      "finance",
+      "product",
+      "marketing"
+    ],
+    "document_ids": [
+      "doc-001",
+      "doc-007",
+      "doc-008"
+    ]
+  }
+]
