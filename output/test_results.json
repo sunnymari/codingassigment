@@ -17,7 +17,7 @@
   {
     "test_id": "TEST-004",
     "status": "PASS",
-    "detail": "clean, 903 chars, label=SECRET"
+    "detail": "clean, 766 chars, label=SECRET"
   },
   {
     "test_id": "TEST-005",
@@ -32,7 +32,7 @@
   {
     "test_id": "TEST-007",
     "status": "PASS",
-    "detail": "775 chars with specific detail"
+    "detail": "732 chars with specific detail"
   },
   {
     "test_id": "TEST-008",
